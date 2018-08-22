@@ -13,7 +13,7 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 ## Schematic diagrams:
 ### TX and RX circuits -
 ![alt text](https://i.imgur.com/E5YgfeX.png)
-![alt text](https://cdn.sparkfun.com/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png)
+![alt text](https://i.imgur.com/Dk5PBPE.png)
 
 
 ![alt text](https://i.imgur.com/j8vSlox.png)
