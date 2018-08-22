@@ -33,3 +33,4 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 4. You'll need the  [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/index.html) library in order to utilize this code. Source files are [here](https://github.com/cmaglie/VirtualWire).
 5. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct        line of sight. This code will work with other frequency transmitters/recivers/transceivers as long as they are compatible with the
    VirtualWire library.
+6. The analog input pins are 10 bit so the resolution of the temperature values can improved by adusting the  [dtostrf()](https://www.microchip.com/webdoc/AVRLibcReferenceManual/group__avr__stdlib_1ga060c998e77fb5fc0d3168b3ce8771d42.html) function in Attiny85_wireless_thermistor.ino
