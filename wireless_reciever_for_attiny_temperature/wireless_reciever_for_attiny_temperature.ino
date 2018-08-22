@@ -33,8 +33,6 @@ byte msgLength = VW_MAX_MESSAGE_LEN;       // the size of the message.
 void setup()
 {
   Serial.begin(9600);
-  Serial.println("Ready");
-  // Initialize the IO and ISR
   vw_setup(2000);                          // Wireless communication bits per second.
   vw_rx_start();                           // Starts the receiver.
 }
