@@ -31,3 +31,4 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
    are much more suited for your specific thermistor.
 3. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct line    of sight
 4. R2 used was ~1000Ω but you are allowed to use any value resistor as long as you adjust the R2 value in Attiny85_wireless_thermistor.ino
+5. You'll need the  [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/index.html) library in order to utilize this code. Source files are [here](https://github.com/cmaglie/VirtualWire).
