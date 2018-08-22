@@ -21,4 +21,4 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
    will most likely produce decent results for you, a more rigorous [approach](   https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf) should be used to gain coefficients that
    are much more suited for your specific thermistor.
 3. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct line    of sight
-4. R2 used was ~1000 \omega | ω | 
+4. R2 used was ~1000Ω
