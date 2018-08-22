@@ -40,7 +40,7 @@
 
 //////////////////////////////////////Variables//////////////////////////////////////////
 
-const int A1 = 1;                          // Analog Pin 1 will read voltage data of the thermistor.
+const int aPin1 = 1;                          // Analog Pin 1 will read voltage data of the thermistor.
 float thermRes;                            // Thermistor resistance.
 int data1;                                 // Data relayed from ADC pin A0 will be mapped here.
 const float R2 = 997;                      // R2 resistance.
@@ -58,7 +58,7 @@ void setup(){
 
 void loop(){
 
-  data1 = analogRead(A1);                  // Analog data from A1 is read.
+  data1 = analogRead(aPin1);                  // Analog data from A1 is read.
   thermRes=R2*((1023.0 / data1) - 1.0);    // Thermistor resistance measured.
   dtostrf(thermT(thermRes), 6, 2, TM);     // Conversion of the thermistor float data to a char string.
   
