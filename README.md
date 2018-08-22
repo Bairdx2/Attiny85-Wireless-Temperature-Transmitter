@@ -16,7 +16,9 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 
 
 ## Things to keep in mind:
-1. Make sure that the Attiny's bootloader is burned and the internal clock is set to 8Mhz. More info [here](http://highlowtech.org/?p=1695).
-2. Manufacturing variations exist from thermistor to thermistor so while the coefficients generated for this example
+1. Make sure that the Attiny's bootloader is burned and the **internal** clock is set to 8Mhz. More info [here](http://highlowtech.org/?p=1695).
+2. Manufacturing variations exist from thermistor to thermistor so while the coefficients generated for this project
    will most likely produce decent results for you, a more rigorous [approach](   https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf) should be used to gain coefficients that
-   are much more suited for your thermistor. 
+   are much more suited for your specific thermistor.
+3. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct line    of sight
+4. R2 used was ~1000 \omega | ω | 
