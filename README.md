@@ -10,11 +10,7 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 
 
 ## Schematic diagrams:
-### Transmitter circuit -
-![alt text](https://i.imgur.com/z7tLWEI.png)
+### TX and RX circuits -
+![alt text](https://i.imgur.com/5PmbL7b.png)
 
-
-
-### Reciever circuit -
-![alt text](https://i.imgur.com/fE0mKwN.png)
 
