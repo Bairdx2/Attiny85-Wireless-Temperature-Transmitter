@@ -34,3 +34,4 @@ Simple project: Attiny85 measures temperature using a thermistor and wirelessly 
 5. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct        line of sight. This code will work with other frequency transmitters/recivers/transceivers as long as they are compatible with the
    VirtualWire library.
 6. The number of decimal places was set to 2 but the analog input pins are 10 bit so the accuracy of the temperature values can improved by adusting the number of decimal places set by the [dtostrf()](https://www.microchip.com/webdoc/AVRLibcReferenceManual/group__avr__stdlib_1ga060c998e77fb5fc0d3168b3ce8771d42.html) function in Attiny85_wireless_thermistor.ino
+7. Attiny25/45/85 [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf)
