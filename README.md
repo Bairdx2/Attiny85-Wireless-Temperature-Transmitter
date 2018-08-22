@@ -13,7 +13,7 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 ## Schematic diagrams:
 ### TX and RX circuits -
 ![alt text](https://i.imgur.com/5PmbL7b.png)
-
+![alt text](https://cdn.sparkfun.com/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png)
 
 ## Things to keep in mind:
 1. Make sure that the Attiny's bootloader is burned and the **internal** clock is set to 8Mhz. More info [here](http://highlowtech.org/?p=1695).
