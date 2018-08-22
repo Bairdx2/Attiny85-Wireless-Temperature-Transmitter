@@ -25,10 +25,11 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 ***Figure 3***: Sample data collected while breathing on the thermistor. Y axis is tenmperature in celsius and x axis is # of data points.
 
 ## Things to keep in mind:
-1. Make sure that the Attiny's bootloader is burned and the **internal** clock is set to 8Mhz. This is necessary in order to be able to upload code to the attiny using either the attiny programmer or an arduino as ISP. More info [here](http://highlowtech.org/?p=1695).
+1. Make sure that the Attiny's bootloader is burned and the **internal** clock is set to 8Mhz. This is necessary in order to be able to    upload code to the attiny using either the attiny programmer or an arduino as ISP. More info [here](http://highlowtech.org/?p=1695).
 2. Manufacturing variations exist from thermistor to thermistor so while the steinhart-hart equation coefficients generated for this project
    will most likely produce decent results for you, a more rigorous [approach](   https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf) should be used to gain coefficients that
    are much more suited for your specific thermistor.
-3. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct line    of sight
-4. R2 used was ~1000Ω but you are allowed to use any value resistor as long as you adjust the R2 value in Attiny85_wireless_thermistor.ino
-5. You'll need the  [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/index.html) library in order to utilize this code. Source files are [here](https://github.com/cmaglie/VirtualWire).
+3. R2 used was ~1000Ω but you are allowed to use any value resistor as long as you adjust the R2 value in Attiny85_wireless_thermistor.ino
+4. You'll need the  [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/index.html) library in order to utilize this code. Source files are [here](https://github.com/cmaglie/VirtualWire).
+5. The wireless TX/RX modules used in this project are suceptible to noise and the transmitter can only work up to ~3m with a direct        line of sight. This code will work with other frequency transmitters/recivers/transceivers as long as they are compatible with the
+   VirtualWire library.
