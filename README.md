@@ -15,6 +15,9 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 ![alt text](https://i.imgur.com/E5YgfeX.png)
 ![alt text](https://cdn.sparkfun.com/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png)
 
+
+![alt text](https://i.imgur.com/j8vSlox.png)
+
 ## Things to keep in mind:
 1. Make sure that the Attiny's bootloader is burned and the **internal** clock is set to 8Mhz. This is necessary in order to be able to upload code to the attiny using either the attiny programmer or an arduino as ISP. More info [here](http://highlowtech.org/?p=1695).
 2. Manufacturing variations exist from thermistor to thermistor so while the steinhart-hart equation coefficients generated for this project
