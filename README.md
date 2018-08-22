@@ -13,12 +13,15 @@ Simple project: Attiny85 measures temperature using a thermistor and transmits t
 ## Schematic diagrams:
 ### TX and RX circuits -
 ![alt text](https://i.imgur.com/E5YgfeX.png)
+
 Figure 1: Receiver (left) and transmitter (right) circuits.
 
 ![alt text](https://i.imgur.com/Dk5PBPE.png)
+
 Figure 2: Attiny85 pin layout.
 
 ![alt text](https://i.imgur.com/j8vSlox.png)
+
 Figure 3: Sample data generated. Y axis in celcius and x axis is # of data points.
 
 ## Things to keep in mind:
