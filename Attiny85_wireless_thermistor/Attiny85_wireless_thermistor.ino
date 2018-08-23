@@ -58,7 +58,7 @@ void setup(){
 
 void loop(){
 
-  data1 = analogRead(aPin1);                  // Analog data from A1 is read.
+  data1 = analogRead(aPin1);               // Analog data from A1 is read.
   thermRes=R2*((1023.0 / data1) - 1.0);    // Thermistor resistance measured.
   dtostrf(thermT(thermRes), 6, 2, TM);     // Conversion of the thermistor float data to a char string.
   
