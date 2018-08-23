@@ -43,7 +43,7 @@
 const int aPin1 = 1;                       // Analog Pin 1 will read voltage data of the thermistor.
 float thermRes;                            // Thermistor resistance.
 int data1;                                 // Data relayed from ADC pin A0 will be mapped here.
-const float R2 = 997;                      // R2 resistance.
+const float R2 = 997;                      // R2 resistance in ohms.
 float T;                                   // Temperature reported by the thermistor.
 char TM[10];                               // Thermistor data will be stored here.
 
@@ -76,7 +76,7 @@ void send(char *Tdata){
 
 }
 
-// Method that can convert the thermistor resistance to temperature directly.
+// Method that can convert the thermistor resistance to temperature directly using the Steinhart-Hart equation.
 float thermT(float a){
   T = 1.0 / (0.001129148 + (0.000234125 * log(a)) + (0.0000000876741 * log(a) * log(a) * log(a)));
   T = T - 273.15;                          // Conversion from Kelvin to Celsius.
