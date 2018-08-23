@@ -40,7 +40,7 @@
 
 //////////////////////////////////////Variables//////////////////////////////////////////
 
-const int aPin1 = 1;                          // Analog Pin 1 will read voltage data of the thermistor.
+const int aPin1 = 1;                       // Analog Pin 1 will read voltage data of the thermistor.
 float thermRes;                            // Thermistor resistance.
 int data1;                                 // Data relayed from ADC pin A0 will be mapped here.
 const float R2 = 997;                      // R2 resistance.
