@@ -12,7 +12,7 @@ Simple project: Attiny85 measures temperature using an NTC thermistor and wirele
 
 ## Schematic diagrams:
 ### TX and RX circuits -
-![alt text](https://i.imgur.com/E5YgfeX.png)
+![alt text](https://i.imgur.com/FVEJkpQ.png)
 
 ***Figure 1***: Receiver (left) and transmitter (right) circuits.
 
