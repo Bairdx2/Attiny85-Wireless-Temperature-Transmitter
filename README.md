@@ -1,5 +1,5 @@
 # Attiny85-Wireless-Temperature-Transmitter
-Simple project: Attiny85 measures temperature using a thermistor and wirelessly transmits the temperature to a receiver. The thermistor is essentially a resistor but what makes it special is that its resistance value is really sensitive to temperature fluxuations and is able to operate precisely within the [range](https://en.wikipedia.org/wiki/Thermistor) -90C to 130C. NTC which stands for negative temperature coefficient and this just means that as the thermistor is heated, its resistance will decrease.
+Simple project: Attiny85 measures temperature using an NTC thermistor and wirelessly transmits the temperature to a receiver. The thermistor is essentially a resistor but what makes it special is that its resistance value is really sensitive to temperature fluxuations and is able to operate precisely within the [range](https://en.wikipedia.org/wiki/Thermistor) -90C to 130C. NTC which stands for negative temperature coefficient and this just means that as the thermistor is heated, its resistance will decrease.
 
 
 ## Items needed:
